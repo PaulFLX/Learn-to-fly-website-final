@@ -1,0 +1,13 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="20" cy="20" r="20" fill="#4d7ea8" opacity="0.1"/>
+  
+  <!-- Stylized airplane/wing shape -->
+  <path d="M 20 8 L 12 22 L 20 20 L 28 22 Z" fill="#4d7ea8" stroke="#4d7ea8" stroke-width="1.5" stroke-linejoin="round"/>
+  
+  <!-- Fuselage (center line) -->
+  <line x1="20" y1="8" x2="20" y2="28" stroke="#4d7ea8" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Tail fins -->
+  <path d="M 18 26 L 16 32 L 20 28 L 24 32 L 22 26" fill="#4d7ea8" opacity="0.8"/>
+</svg>
