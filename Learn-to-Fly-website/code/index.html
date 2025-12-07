@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn How to Fly in 4 Weeks - Master aviation basics with our comprehensive digital guide. Get instant access to proven flying techniques and expert insights.">
+    <meta name="keywords" content="learn to fly, flying course, 4 week flying guide, aviation training">
+    <title>Learn How to Fly in 4 Weeks - Master Flying Fast</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="navbar">
+        <nav class="nav-container">
+            <a href="#" class="logo-link">
+                <img src="../images/logo.svg" alt="Fly Academy Logo" class="logo-img">
+                <span class="logo-text">Fly Academy</span>
+            </a>
+            <!--Burger Menu Button-->
+            <div class="burger-menu" id="burgerMenu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#benefits">Benefits</a></li>
+                <li><a href="#testimonials">Reviews</a></li>
+                <li><a href="#author">Author</a></li>
+                <li><a href="#pricing" class="cta-nav liquid">Get Started</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- AWARENESS STAGE: Hero Section -->
+        <section id="hero" class="hero">
+            <div class="hero-content">
+                <h1>Learn How to Fly in 4 Weeks</h1>
+                <p class="problem-statement">Struggling to master flying techniques? Confused by complex aviation concepts? Our proven 4-week program breaks it all down into simple, actionable steps.</p>
+                <div class="hero-cta">
+                    <button class="btn btn-primary" onclick="document.getElementById('pricing').scrollIntoView({behavior: 'smooth'})">Get Instant Access Now</button>
+                    <p class="price-tag">Only $39.99</p>
+                </div>
+                <div class="lead-magnet-offer">
+                    <p class="lead-magnet-text">Not ready yet? <strong>Get a FREE PDF Summary of the book</strong></p>
+                    <form class="lead-magnet-form" onsubmit="downloadPDF(event)">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <button type="submit" class="btn btn-lead-magnet">Download Free PDF</button>
+                    </form>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="../images/bookcover.gif" alt="Learn How to Fly in 4 Weeks - Digital Book Cover">
+            </div>
+        </section>
+
+        <!-- INTEREST STAGE: Benefits Section -->
+        <section id="benefits" class="benefits">
+            <h2>What You'll Master in 4 Weeks</h2>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon">01</div>
+                    <h3>Week 1: Foundation Basics</h3>
+                    <p>Master the fundamental principles of flight, aerodynamics, and safety protocols every pilot must know.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">02</div>
+                    <h3>Week 2: Flight Techniques</h3>
+                    <p>Learn advanced flying techniques, control methods, and how to handle various flight conditions with confidence.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">03</div>
+                    <h3>Week 3: Navigation & Planning</h3>
+                    <p>Understand navigation systems, route planning, and decision-making strategies used by professional pilots.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">04</div>
+                    <h3>Week 4: Advanced Skills</h3>
+                    <p>Polish your skills with advanced maneuvers, emergency procedures, and real-world scenarios for mastery.</p>
+                </div>
+            </div>
+            <div class="benefits-checklist">
+                <h3>Included in Your Purchase:</h3>
+                <ul>
+                    <li>40+ pages of comprehensive flying guide</li>
+                    <li>Week-by-week structured learning path</li>
+                    <li>Practical exercises and quizzes</li>
+                    <li>Downloadable checklists and resources</li>
+                    <li>Lifetime access and updates</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- TRUST STAGE: Testimonials Section -->
+        <section id="testimonials" class="testimonials">
+            <h2>What Our Readers Say</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">"This guide completely transformed my understanding of flying. The 4-week structure is perfectly paced and easy to follow. Highly recommend!"</p>
+                    <p class="testimonial-author">— Sarah Mitchell, Aspiring Pilot</p>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">"I thought flying was too complex to learn on my own, but this book proved me wrong. Clear explanations and practical tips made all the difference."</p>
+                    <p class="testimonial-author">— James Chen, Aviation Enthusiast</p>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">"Worth every penny! The real-world scenarios and advanced techniques in Week 4 took my skills to the next level. Best investment I've made."</p>
+                    <p class="testimonial-author">— Emma Rodriguez, Flight Student</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- TRUST STAGE: About Author Section -->
+        <section id="author" class="author">
+            <div class="author-content">
+                <img src="../images/pilot.gif" alt="Captain Michael Hayes - Professional Pilot and Aviation Expert with 25+ years experience">
+                <div class="author-info">
+                    <h2>Meet Your Instructor</h2>
+                    <h3>Captain Michael Hayes</h3>
+                    <p>Captain Michael Hayes brings 25+ years of professional aviation experience to this comprehensive guide. With certifications as a commercial pilot and flight instructor, Michael has trained over 5,000 students worldwide.</p>
+                    <div class="author-credentials">
+                        <span class="credential">Commercial Pilot License (CPL)</span>
+                        <span class="credential">Certified Flight Instructor (CFI)</span>
+                        <span class="credential">5,000+ Students Trained</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ACTION STAGE: Pricing & Checkout Section -->
+        <section id="pricing" class="pricing">
+            <h2>Ready to Take Flight?</h2>
+            <div class="pricing-card">
+                <h3>Learn How to Fly in 4 Weeks</h3>
+                <div class="pricing-details">
+                    <p class="original-price"><strike>$49.99</strike></p>
+                    <p class="sale-price">$39.99</p>
+                    <p class="price-description">One-time payment • Lifetime access • 30-day money-back guarantee</p>
+                </div>
+                <button class="btn btn-primary btn-large">Get Instant Access Now</button>
+                <p class="guarantee">100% Satisfaction Guaranteed • No Questions Asked Refunds</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 Learn to Fly Academy. All rights reserved.</p>
+            <p>Questions? <a href="mailto:support@learntoflyacademy.com">Contact us</a></p>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
+        <span class="arrow">↑</span>
+    </button>
+<script>
+    const burgerMenu = document.getElementById('burgerMenu');
+    const navLinks = document.querySelector('.nav-links');
+
+    burgerMenu.addEventListener('click', () => {
+        burgerMenu.classList.toggle('active');
+        navLinks.classList.toggle('active');
+    });
+
+    // Close menu when a link is clicked
+    document.querySelectorAll('.nav-links a').forEach(link => {
+        link.addEventListener('click', () => {
+            burgerMenu.classList.remove('active');
+            navLinks.classList.remove('active');
+        });
+    });
+
+    // Download PDF function
+    function downloadPDF(event) {
+        event.preventDefault();
+        
+        // Get form values
+        const name = event.target.querySelector('input[type="text"]').value;
+        const email = event.target.querySelector('input[type="email"]').value;
+        
+        // Store data (you can send this to your own email or service later)
+        console.log(`Lead captured: ${name}, ${email}`);
+        
+        // Create a simple PDF download
+        // For now, we'll create a placeholder. Replace with your actual PDF file
+        const link = document.createElement('a');
+        link.href = 'pdf-summary.pdf'; // Replace with your actual PDF file path
+        link.download = 'Learn_to_Fly_Summary.pdf';
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+        
+        // Show success message
+        alert(`Thank you ${name}! Your PDF is downloading. Check your downloads folder.`);
+        
+        // Reset form
+        event.target.reset();
+    }
+</script>
+    <script>
+        const backToTopBtn = document.getElementById('backToTop');
+        
+
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 300) {
+                backToTopBtn.style.display = 'block';
+            } else {
+                backToTopBtn.style.display = 'none';
+            }
+        });
+    </script>
+</body>
+</html>
